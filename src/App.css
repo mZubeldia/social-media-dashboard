@@ -9,6 +9,11 @@
     background-color: var(--bg-color);
     color: var(--regular-text-color);
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 h1{
     padding: 0;
@@ -16,10 +21,17 @@ h1{
     color: hsl(230, 17%, 14%);
 }
 
+ul, li {
+    list-style: none;
+    list-style-type: none;
+}
+
 body {
-    padding: 0.7rem;
+    padding: 2rem;
     line-height: 2.2rem;
 }
+
+
 
 /* 
 SSMM colors
@@ -43,6 +55,11 @@ SSMM colors
 */
 
 /* header */
+
+.header {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
 
 .bold{
  font-weight: 700;
