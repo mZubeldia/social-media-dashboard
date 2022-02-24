@@ -1,15 +1,11 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <header>
-        <div>
-          <h1>Social Media Dashboard</h1>
-          Total Followers: 23,004
-        </div>
-        <div>Dark Mode</div>
-      </header>
+
+      <Header/>
 
       <main>
         <section>
