@@ -1,10 +1,19 @@
 :root {
     font-family: 'Inter', sans-serif;
+    --bg-color: hsl(0, 0%, 100%);
+    --regular-text-color: hsl(228, 12%, 44%);
+    --important-text-color: hsl(230, 17%, 14%);
+    --card-background-color: hsl(227, 47%, 96%);
+    --top-card-color: hsl(225, 100%, 98%);
+
+    background-color: var(--bg-color);
+    color: var(--regular-text-color);
 }
 
 h1{
     padding: 0;
     margin: 0;
+    color: hsl(230, 17%, 14%);
 }
 
 body {
@@ -12,10 +21,23 @@ body {
     line-height: 2.2rem;
 }
 
+/* 
+
+
+#### Light Theme
+
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
+
+*/
+
 /* header */
 
 .bold{
- font-weight: 400;
+ font-weight: 700;
  color: grey;
 }
 
