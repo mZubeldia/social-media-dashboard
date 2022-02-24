@@ -77,3 +77,38 @@ SSMM colors
     display: flex;
     justify-content: space-between;
 }
+
+
+/* cards */
+
+.card {
+    background-color: var(--card-background-color);
+    height: 15rem;
+    border-radius: 7px;
+}
+
+.card-list {
+    display: flex;
+   justify-content: center;
+}
+
+.card_list_element.icon{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_list_element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+}
+
+.social_media_icon {
+    margin-right: 0.2rem;
+}
+
+.social_media_name {
+    margin-left: 0.2rem;
+}
