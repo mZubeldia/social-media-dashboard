@@ -34,10 +34,10 @@ function App() {
       <footer>
         <div class="attribution">
           Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          <a href="https://www.frontendmentor.io?ref=challenge" rel="noreferrer" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="#">mZubeldia</a>.
+          . Coded by <a href="https://mzubeldia.github.io/portfolio/">mZubeldia</a>.
         </div>
       </footer>
     </>
