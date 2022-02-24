@@ -5,6 +5,8 @@
     --important-text-color: hsl(230, 17%, 14%);
     --card-background-color: hsl(227, 47%, 96%);
     --top-card-color: hsl(225, 100%, 98%);
+    --up-color: hsl(163, 72%, 41%);
+    --down-color: hsl(356, 69%, 56%);
 
     background-color: var(--bg-color);
     color: var(--regular-text-color);
@@ -83,13 +85,18 @@ SSMM colors
 
 .card {
     background-color: var(--card-background-color);
-    height: 15rem;
+    height: 16rem;
     border-radius: 7px;
+    border-top: 5px solid hsl(208, 92%, 53%) !important;
+
 }
 
 .card-list {
     display: flex;
+    height: 16rem;
+    flex-direction: column;
    justify-content: center;
+   align-content: center;
 }
 
 .card_list_element.icon{
@@ -99,9 +106,9 @@ SSMM colors
 
 .card_list_element {
     display: flex;
+    height: 100%;
     flex-direction: column;
-    width: 100%;
-    padding: 1rem;
+    padding: 0.7rem;
     align-items: center;
 }
 
@@ -111,4 +118,21 @@ SSMM colors
 
 .social_media_name {
     margin-left: 0.2rem;
+}
+
+.social_media_number {
+    color: var(--important-text-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.social_media_followers {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.social_media_increase {
+    color: var(--up-color);
+    font-weight: 700;
 }

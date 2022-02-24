@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <main>
       <section>
-        <article className="card">
+        <article className="card facebook_card">
           <ul className="card_list">
             <li className="card_list_element icon">
               <svg className="social_media_icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -13,7 +13,7 @@ const Main = () => {
                   d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"
                 />
               </svg>
-              <span className="social_media_name">@nathanf</span>
+              <span className="social_media_name bold">@nathanf</span>
             </li>
             <li className="card_list_element">
               <span className="social_media_number">1987</span>{" "}
